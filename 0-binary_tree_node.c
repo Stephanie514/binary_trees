@@ -4,6 +4,7 @@
  * binary_tree_node - Fx creates a binary tree node
  * @parent: points to the parent node of the created node
  * @value: value of the new node
+ *
  * Return: Pointer to the new_node
  * NULL if fails
  */

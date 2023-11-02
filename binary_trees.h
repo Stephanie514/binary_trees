@@ -10,8 +10,6 @@
 #include <math.h>
 #include <limits.h>
 
-/*BASIC BINARY TREE*/
-
 /**
  * struct binary_tree_s - Binary tree node
  * @n: Integer stored in the node
@@ -29,23 +27,23 @@ struct binary_tree_s
 
 typedef struct binary_tree_s binary_tree_t;
 
-/*BINARY SERACH TREE*/
+/* BINARY SERACH TREE */
 
 typedef struct binary_tree_s bst_t;
 
-/*AVL TREE*/
+/* AVL TREE */
 
 typedef struct binary_tree_s bst_t;
 
-/*MAX BINARY HEAP*/
+/* MAX BINARY HEAP */
 
 typedef struct binary_tree_s bst_t;
 
-/*PRINT FUNCTION*/
+/* PRINT FUNCTION */
 
 void binary_tree_print(const binary_tree_t *tree);
 
-/*MANDATORY TASKS PROTOTYPES*/
+/* MANDATORY TASKS PROTOTYPES */
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
@@ -67,6 +65,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree);
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
-/*ADVANCED TASKS PROTOTYPES*/
+/* ADVANCED TASKS PROTOTYPES */
 
 #endif
